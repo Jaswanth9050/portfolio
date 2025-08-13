@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jaswanth</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <title>Jaswanth</title>
   </head>
   <body>
     <header>
@@ -54,7 +55,7 @@
     <section class="skills container">
       <h4>Skills</h4>
       <div class="skills_flex">
-        <div class="skills_card">
+        <div class="skills_card"  data-aos="flip-right">
           <img
             class="skills_img"
             src="https://static.vecteezy.com/system/resources/thumbnails/013/313/458/small_2x/html-icon-3d-rendering-illustration-free-vector.jpg"
@@ -62,7 +63,7 @@
           />
           <h3>HTML</h3>
         </div>
-        <div class="skills_card">
+        <div class="skills_card" data-aos="flip-left">
           <img
             class="skills_img"
             src="https://coryrylan.com/assets/css-CfW5UZaa.svg"
@@ -133,7 +134,7 @@
 
     <section class="connect container">
       <h4>GET IN TOUCH</h4>
-      <div class="connect_flex">
+      <div class="connect_flex" data-aos="zoom-in" data-aos-delay="300">
         <div class="connect_card">
           <input type="text" name="" id="" placeholder=" Name">
           <input type="email" name="" id="" placeholder=" Email">
@@ -151,5 +152,13 @@
         Ltd.
       </p>
     </footer>
+
+    <!-- AOS JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Init AOS -->
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
