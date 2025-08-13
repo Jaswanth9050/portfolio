@@ -118,7 +118,6 @@ header {
 }
 .skills_card:hover{
     box-shadow:2px 1px 33px #6f6f70;
-    transform: scale(1.1) translateY(-10px); 
     cursor: pointer;
 
 }
